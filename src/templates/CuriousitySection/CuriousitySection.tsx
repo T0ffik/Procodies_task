@@ -23,7 +23,7 @@ export const CuriousitySection = () => {
           </SectionsText>
         </TextWrapper>
       </div>
-      <img src={img} className="w-[50%]" />
+      <img src={img} className="w-[50%] rounded-[30px]" />
     </section>
   );
 };

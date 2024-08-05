@@ -8,7 +8,7 @@ import {
 
 export const MainPage = () => {
   return (
-    <div className="max-w-[1232px] ">
+    <div className="max-w-[1232px] flex flex-col items-center">
       <FormSection />
       <TitleBreak />
       <CuriousitySection />

@@ -8,7 +8,7 @@ import {
 
 export const MainPage = () => {
   return (
-    <div>
+    <div className="max-w-[1232px] ">
       <FormSection />
       <TitleBreak />
       <CuriousitySection />

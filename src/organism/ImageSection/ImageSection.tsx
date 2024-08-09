@@ -8,7 +8,7 @@ export const ImageSection = () => {
   const [image, setImage] = useState(img1);
 
   return (
-    <div className=" pr-[5px] pt-[16px] flex flex-col gap-[16px] relative max-[1430px]:pr-[0px] max-[1430px]:pt-[0px]">
+    <div className=" pr-[5px] pt-16 flex flex-col gap-16 relative max-[1430px]:pr-[0px] max-[1430px]:pt-[0px]">
       <div className="absolute top-0 right-0 flex flex-col items-center w-[160px] h-[160px] bg-cBackground-primary justify-center rounded-[50%]">
         <span className="text-fsLarge font-normal text-cText-white">$1.99</span>
         <span className="text-cText-white text-[14px]">

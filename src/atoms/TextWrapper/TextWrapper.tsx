@@ -5,5 +5,5 @@ interface TextWrapperProps {
 }
 
 export const TextWrapper = ({ children }: TextWrapperProps) => {
-  return <p className="mt-[24px] flex flex-col gap-[8px]">{children}</p>;
+  return <p className="mt-24 flex flex-col gap-[8px]">{children}</p>;
 };

@@ -3,9 +3,9 @@ import img from "../../Images/image_section2.png";
 
 export const CuriousitySection = () => {
   return (
-    <section className="flex flex-row-reverse mt-[32px] gap-[32px] items-center max-[830px]:flex-col">
+    <section className="flex flex-row-reverse mt-32 gap-32 items-center max-[830px]:flex-col">
       <div>
-        <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-[52px]">
+        <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-52">
           Curious about the{" "}
           <span className="text-cBackground-primary">StockX </span>
           Mystery Box?

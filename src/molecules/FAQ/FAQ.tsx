@@ -2,9 +2,9 @@ import { QuestionWrapper, Typography } from "../../atoms";
 
 export const FAQ = () => {
   return (
-    <div className="bg-cBackground-secondary px-[16px] py-[24px] flex gap-[32px] max-[830px]:flex-col">
+    <div className="bg-cBackground-secondary px-16 py-24 flex gap-32 max-[830px]:flex-col">
       <QuestionWrapper>
-        <h6 className="text-fsFooterTitle font-semibold leading-[16px] text-cText-primary">
+        <h6 className="text-fsFooterTitle font-semibold leading-16 text-cText-primary">
           How can I win?
         </h6>
         <Typography variant="footerText">
@@ -16,7 +16,7 @@ export const FAQ = () => {
         </Typography>
       </QuestionWrapper>
       <QuestionWrapper>
-        <h6 className="text-fsFooterTitle font-semibold leading-[16px] text-cText-primary">
+        <h6 className="text-fsFooterTitle font-semibold leading-16 text-cText-primary">
           No hidden fees?
         </h6>
         <Typography variant="footerText">
@@ -28,7 +28,7 @@ export const FAQ = () => {
         </Typography>
       </QuestionWrapper>
       <QuestionWrapper>
-        <h6 className="text-fsFooterTitle font-semibold leading-[16px] text-cText-primary">
+        <h6 className="text-fsFooterTitle font-semibold leading-16 text-cText-primary">
           Why do we need your billing information?
         </h6>
         <Typography variant="footerText">

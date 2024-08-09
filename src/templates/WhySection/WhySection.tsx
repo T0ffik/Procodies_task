@@ -3,9 +3,9 @@ import img from "../../Images/image_section2.png";
 
 export const WhySection = () => {
   return (
-    <section className="flex flex-row mt-[48px] gap-[32px] items-center max-[830px]:flex-col">
+    <section className="flex flex-row mt-48 gap-32 items-center max-[830px]:flex-col">
       <div>
-        <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-[52px]">
+        <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-52">
           Why is everyone buzzing about these boxes?
         </h3>
         <TextWrapper>

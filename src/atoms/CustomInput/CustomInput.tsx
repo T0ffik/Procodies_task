@@ -13,7 +13,7 @@ export const CustomInput = forwardRef<HTMLInputElement, InputProps>(
         className={
           `${
             props.error && "border-cBorder-error"
-          } border-[1px] border-cBorder-default focus:border-cBorder-focus rounded-[10px] py-[12px] px-[16px] placeholder:text-cPlaceholder-default placeholder:focus:text-cPlaceholder-focus ` +
+          } border-[1px] border-cBorder-default focus:border-cBorder-focus rounded-[10px] py-12 px-16 placeholder:text-cPlaceholder-default placeholder:focus:text-cPlaceholder-focus ` +
           props.className
         }
       />

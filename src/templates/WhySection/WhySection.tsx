@@ -3,7 +3,7 @@ import img from "../../Images/image_section2.png";
 
 export const WhySection = () => {
   return (
-    <section className="flex flex-row mt-[48px] gap-[32px] items-center">
+    <section className="flex flex-row mt-[48px] gap-[32px] items-center max-[830px]:flex-col">
       <div>
         <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-[52px]">
           Why is everyone buzzing about these boxes?
@@ -22,7 +22,7 @@ export const WhySection = () => {
           </SectionsText>
         </TextWrapper>
       </div>
-      <img src={img} className="w-[50%] rounded-[30px]" />
+      <img src={img} className="w-[50%] rounded-[30px] max-[830px]:w-[100%]" />
     </section>
   );
 };

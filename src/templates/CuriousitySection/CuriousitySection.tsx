@@ -3,7 +3,7 @@ import img from "../../Images/image_section2.png";
 
 export const CuriousitySection = () => {
   return (
-    <section className="flex flex-row-reverse mt-[32px] gap-[32px] items-center">
+    <section className="flex flex-row-reverse mt-[32px] gap-[32px] items-center max-[830px]:flex-col">
       <div>
         <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-[52px]">
           Curious about the{" "}
@@ -23,7 +23,7 @@ export const CuriousitySection = () => {
           </SectionsText>
         </TextWrapper>
       </div>
-      <img src={img} className="w-[50%] rounded-[30px]" />
+      <img src={img} className="w-[50%] rounded-[30px] max-[830px]:w-[100%]" />
     </section>
   );
 };

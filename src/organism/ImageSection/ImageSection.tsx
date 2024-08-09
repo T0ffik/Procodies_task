@@ -8,15 +8,15 @@ export const ImageSection = () => {
   const [image, setImage] = useState(img1);
 
   return (
-    <div className="w-[486px] pr-[5px] pt-[16px] flex flex-col gap-[16px] relative">
+    <div className=" pr-[5px] pt-[16px] flex flex-col gap-[16px] relative max-[1430px]:pr-[0px] max-[1430px]:pt-[0px]">
       <div className="absolute top-0 right-0 flex flex-col items-center w-[160px] h-[160px] bg-cBackground-primary justify-center rounded-[50%]">
         <span className="text-fsLarge font-normal text-cText-white">$1.99</span>
         <span className="text-cText-white text-[14px]">
           Original value $500
         </span>
       </div>
-      <img src={image} className=" max-w-[481px] max-h-[473px]" />
-      <div className="flex h-[132px] justify-between w-[486px]">
+      <img src={image} className=" max-w-[481px]" />
+      <div className="flex h-[132px] gap-[42px] ">
         <ImagePicker
           src={img1}
           onClick={() => setImage(img1)}

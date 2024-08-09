@@ -1,6 +1,6 @@
 export const FAQ = () => {
   return (
-    <div className="bg-cBackground-secondary px-[16px] py-[24px] flex gap-[32px]">
+    <div className="bg-cBackground-secondary px-[16px] py-[24px] flex gap-[32px] max-[830px]:flex-col">
       <div className="flex flex-col grow basis-0">
         <h6 className="text-fsFooterTitle font-semibold leading-[16px] text-cText-primary">
           How can I win?

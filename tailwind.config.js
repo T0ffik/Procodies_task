@@ -8,6 +8,7 @@ export default {
       "cBorder-form": "#DBDBDB",
       "cBorder-focus": "#2D473E",
       "cBorder-default": "#ADADAD",
+      "cBorder-error": "red",
       "cText-primary": "#293632",
       "cText-title": "#2D473E",
       "cText-white": "#FFFFFF",

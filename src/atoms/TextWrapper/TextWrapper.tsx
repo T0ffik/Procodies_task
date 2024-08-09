@@ -1,9 +1,5 @@
-import { ReactNode } from "react";
+import { PropsWithChildren } from "react";
 
-interface TextWrapperProps {
-  children: ReactNode;
-}
-
-export const TextWrapper = ({ children }: TextWrapperProps) => {
-  return <p className="mt-24 flex flex-col gap-[8px]">{children}</p>;
+export const TextWrapper = ({ children }: PropsWithChildren) => {
+  return <div className="mt-24 flex flex-col gap-[8px]">{children}</div>;
 };

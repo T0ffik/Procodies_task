@@ -1,9 +1,5 @@
-import { ReactNode } from "react";
+import { PropsWithChildren } from "react";
 
-interface QuestionWrapperProps {
-  children: ReactNode;
-}
-
-export const QuestionWrapper = ({ children }: QuestionWrapperProps) => {
+export const QuestionWrapper = ({ children }: PropsWithChildren) => {
   return <div className="flex flex-col grow basis-0">{children}</div>;
 };

@@ -1,5 +1,5 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-import { CustomInput, FormLogos } from "../../atoms";
+import { Input, FormLogos } from "../../atoms";
 
 type Inputs = {
   firstName: string;
@@ -16,6 +16,7 @@ export const Form = () => {
     handleSubmit,
     formState: { errors },
   } = useForm<Inputs>();
+  const basicValidationRules = { required: true, maxLength: 64 };
   const onSubmit: SubmitHandler<Inputs> = (data) =>
     console.log("sended this data:", data);
   return (
@@ -27,27 +28,27 @@ export const Form = () => {
         className="flex flex-col gap-16 w-[100%]"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <div className="flex gap-16">
-          <CustomInput
+        <div className="flex gap-16 max-[531px]:flex-col">
+          <Input
             placeholder="First name"
-            {...register("firstName", { required: true, maxLength: 64 })}
+            {...register("firstName", basicValidationRules)}
             className="grow-[1]"
             error={!!errors.firstName}
           />
-          <CustomInput
+          <Input
             placeholder="Last name"
-            {...register("lastName", { required: true, maxLength: 64 })}
+            {...register("lastName", basicValidationRules)}
             className="grow-[1]"
             error={!!errors.lastName}
           />
         </div>
-        <CustomInput
+        <Input
           placeholder="Street"
-          {...register("street", { required: true, maxLength: 64 })}
+          {...register("street", basicValidationRules)}
           error={!!errors.street}
         />
-        <div className="flex gap-16">
-          <CustomInput
+        <div className="flex gap-16 max-[531px]:flex-col">
+          <Input
             placeholder="Postal code"
             {...register("postalCode", {
               required: true,
@@ -57,19 +58,19 @@ export const Form = () => {
             className="grow-[1]"
             error={!!errors.postalCode}
           />
-          <CustomInput
+          <Input
             placeholder="City"
-            {...register("city", { required: true, maxLength: 64 })}
+            {...register("city", basicValidationRules)}
             className="grow-[1]"
             error={!!errors.city}
           />
         </div>
-        <CustomInput
+        <Input
           placeholder="Phone number"
           {...register("phoneNumber", { required: true, maxLength: 9 })}
           error={!!errors.phoneNumber}
         />
-        <CustomInput
+        <Input
           placeholder="E-mail"
           {...register("email", {
             required: true,

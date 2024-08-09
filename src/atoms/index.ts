@@ -1,4 +1,4 @@
-export * from "./CustomInput";
+export * from "./Input";
 export * from "./FormLogos";
 export * from "./ImagePicker";
 export * from "./Typography";

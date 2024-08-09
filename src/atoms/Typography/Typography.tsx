@@ -1,7 +1,6 @@
-import { ReactNode } from "react";
+import { PropsWithChildren } from "react";
 
-interface SectionsTextProps {
-  children: ReactNode;
+interface SectionsTextProps extends PropsWithChildren {
   variant?: "footerText" | "default";
 }
 

@@ -1,4 +1,4 @@
-import { SectionsText, TextWrapper } from "../../atoms";
+import { Typography, TextWrapper } from "../../atoms";
 import img from "../../Images/image_section2.png";
 
 export const WhySection = () => {
@@ -9,17 +9,17 @@ export const WhySection = () => {
           Why is everyone buzzing about these boxes?
         </h3>
         <TextWrapper>
-          <SectionsText>
+          <Typography>
             StockX Mystery Boxes are not just about products; they’re about the
             experience. Imagine the excitement of unveiling top-tier electronics
             at a fraction of the cost.
-          </SectionsText>
-          <SectionsText>
+          </Typography>
+          <Typography>
             Our boxes include a variety of premium tech items, making it a
             must-have for every tech enthusiast. Join the buzz and see why
             everyone is raving about the unbeatable value and surprise factor of
             Stockx Mystery Boxes!
-          </SectionsText>
+          </Typography>
         </TextWrapper>
       </div>
       <img src={img} className="w-[50%] rounded-[30px] max-[830px]:w-[100%]" />

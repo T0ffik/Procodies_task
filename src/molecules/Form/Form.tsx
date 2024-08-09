@@ -51,6 +51,7 @@ export const Form = () => {
             placeholder="Postal code"
             {...register("postalCode", {
               required: true,
+              //regex for polish postal code
               pattern: /^\d{2}-\d{3}/i,
             })}
             className="grow-[1]"

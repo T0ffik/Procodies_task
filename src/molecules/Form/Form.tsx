@@ -1,5 +1,5 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-import { Input, FormLogos } from "../../atoms";
+import { Input, FormLogos, Typography } from "../../atoms";
 
 type Inputs = {
   firstName: string;
@@ -21,9 +21,12 @@ export const Form = () => {
     console.log("sended this data:", data);
   return (
     <div className="flex flex-col border-solid border-[1px] border-cBorder-form p-24 rounded-[20px] mt-[23px] items-center">
-      <h4 className="text-fsMedium leading-lhMedium font-medium text-center text-cText-title mb-24">
+      <Typography
+        tag="h4"
+        customStyles="text-fsMedium leading-lhMedium font-medium text-center text-cText-title mb-24"
+      >
         Enter Details
-      </h4>
+      </Typography>
       <form
         className="flex flex-col gap-16 w-[100%]"
         onSubmit={handleSubmit(onSubmit)}

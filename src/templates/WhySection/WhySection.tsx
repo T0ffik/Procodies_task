@@ -5,16 +5,16 @@ export const WhySection = () => {
   return (
     <section className="flex flex-row mt-48 gap-32 items-center max-[830px]:flex-col">
       <div>
-        <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-52">
+        <Typography tag="h3" variant="sectionHeader">
           Why is everyone buzzing about these boxes?
-        </h3>
+        </Typography>
         <TextWrapper>
-          <Typography>
+          <Typography tag="span">
             StockX Mystery Boxes are not just about products; they’re about the
             experience. Imagine the excitement of unveiling top-tier electronics
             at a fraction of the cost.
           </Typography>
-          <Typography>
+          <Typography tag="span">
             Our boxes include a variety of premium tech items, making it a
             must-have for every tech enthusiast. Join the buzz and see why
             everyone is raving about the unbeatable value and surprise factor of

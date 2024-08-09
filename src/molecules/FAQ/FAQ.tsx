@@ -4,10 +4,10 @@ export const FAQ = () => {
   return (
     <div className="bg-cBackground-secondary px-16 py-24 flex gap-32 max-[830px]:flex-col">
       <QuestionWrapper>
-        <h6 className="text-fsFooterTitle font-semibold leading-16 text-cText-primary">
+        <Typography tag="h6" variant="footerHeader">
           How can I win?
-        </h6>
-        <Typography variant="footerText">
+        </Typography>
+        <Typography variant="footerText" tag="span">
           Thanks to your membership, you also participate in our contest to win
           the iPhone15. We sellect a winner among every 600 participants. The
           next winner will be selected on 06.10.2023, and will be notified
@@ -16,10 +16,10 @@ export const FAQ = () => {
         </Typography>
       </QuestionWrapper>
       <QuestionWrapper>
-        <h6 className="text-fsFooterTitle font-semibold leading-16 text-cText-primary">
+        <Typography tag="h6" variant="footerHeader">
           No hidden fees?
-        </h6>
-        <Typography variant="footerText">
+        </Typography>
+        <Typography variant="footerText" tag="span">
           We ensure that our members are provided with a detailed history of
           transactions so that they know exactly what they are paying for.
           Credit card information is only required to facilitate future
@@ -28,10 +28,10 @@ export const FAQ = () => {
         </Typography>
       </QuestionWrapper>
       <QuestionWrapper>
-        <h6 className="text-fsFooterTitle font-semibold leading-16 text-cText-primary">
+        <Typography tag="h6" variant="footerHeader">
           Why do we need your billing information?
-        </h6>
-        <Typography variant="footerText">
+        </Typography>
+        <Typography variant="footerText" tag="span">
           By joining this service, you will receive a 5-day trial of our
           partner's program. If you continue with a subscription beyond the
           5-day trial period, you will be charged an amount on your credit card

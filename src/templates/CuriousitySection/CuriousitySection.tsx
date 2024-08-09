@@ -5,18 +5,20 @@ export const CuriousitySection = () => {
   return (
     <section className="flex flex-row-reverse mt-32 gap-32 items-center max-[830px]:flex-col">
       <div>
-        <h3 className="text-cText-primary font-bold text-fsSubSectionTitle grow-[1] leading-52">
+        <Typography tag="h3" variant="sectionHeader">
           Curious about the{" "}
-          <span className="text-cBackground-primary">StockX </span>
+          <Typography tag="span" customStyles="text-cBackground-primary">
+            StockX{" "}
+          </Typography>
           Mystery Box?
-        </h3>
+        </Typography>
         <TextWrapper>
-          <Typography>
+          <Typography tag="span">
             Experience the thrill of unboxing cutting-edge gadgets with Stockx
             Mystery Boxes. Each box is a treasure trove of high-quality
             electronics, handpicked to elevate your tech game.
           </Typography>
-          <Typography>
+          <Typography tag="span">
             Expect the unexpected! Our boxes are packed with the latest gadgets,
             from smartphones to gaming consoles, ensuring you get the best tech
             surprises every time.
